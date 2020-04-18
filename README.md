@@ -18,7 +18,7 @@ For firefox:
 https://addons.mozilla.org/addon/covidtracker/
 
 For chrome:
-- [Download](https://github.com/emersonlaurentino/covid-19braziltracker/archive/master.zip) our source code
+- [Download] our source code
 - Unzip the downloaded folder
 - In Chrome, access the [Extensions](chrome://extensions) page and toggle **Developer Mode** on
 - Click on the button **Load unpacked** and select the unzipped folder
