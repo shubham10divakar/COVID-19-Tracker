@@ -21,13 +21,11 @@ function changeDate(num) {
 }
 
 function init() {
-  const data = getObject(KEY_DATA);
-  //console.log('new')
-	//console.log(data)
-  changeCases(data.confirmed);
-  changeSuspects(data.deaths);
-  changeDeaths(data.recovered);
-  changeDate(data.date)
+  const json = getObject(KEY_DATA);
+  changeCases(json.data.summary.total);
+  changeSuspects(json.data.summary.deaths);
+  changeDeaths(json.data.summary.discharged);
+  changeDate(json.lastRefreshed)
 }
 
 document.addEventListener(
