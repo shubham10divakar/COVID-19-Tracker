@@ -1,8 +1,0 @@
-{
-  "name": "covid-19indiatracker",
-  "version": "0.0.2",
-  "main": "index.js",
-  "repository": "https://github.com/shubham10divakar/COVID-19-Tracker",
-  "author": "Subham Divakar <shubham.divakar@gmail.com>",
-  "license": "open-souce"
-}
