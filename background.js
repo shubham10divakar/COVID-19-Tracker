@@ -23,8 +23,8 @@ chrome.alarms.onAlarm.addListener(alarm => {
 
 // schedule a new fetch every 60 minutes
 function scheduleRequest() {
-  console.log("schedule refresh alarm to 60 minutes...");
-  chrome.alarms.create("refresh", { periodInMinutes: 60 });
+  console.log("schedule refresh alarm to 5 minutes...");
+  chrome.alarms.create("refresh", { periodInMinutes: 5 });
 }
 
 // fetch data and save to local storage

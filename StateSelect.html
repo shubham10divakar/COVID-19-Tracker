@@ -1,35 +1,30 @@
 <!doctype html>
 <html>
   <head>
+	Content-Security-Policy: script-src 'unsafe-inline';
     <title>Covid-19 India Tracker</title>
     <meta charset="utf-8">
-    <script src="javascript.js">
-    </script>
-    <script src="index.js"></script>
-    <script src="background.js"></script>
     <link rel="stylesheet" href="./styles.css" />
-	
   </head>
   <body>
-  
- 
     <ul>
       <li id="cases">Confirmed Cases: 0</li>
       <li id="deaths">Deaths: 0</li>
       <li id="recovered">Recovered: 0</li>
 	  <li id="date">Date: 0</li>
+      <!-- <li>
+        <a href="https://github.com/shubham10divakar/COVID-19-Tracker" target="_blank">
+          Souce Code
+        </a>
+      </li>
+      <li>
+        <a href="https://pomber.github.io/covid19/timeseries.json" target="_blank">
+          API Link
+        </a>
+      </li> -->
+      
     </ul>
-	 <script src="javaquery.js"></script>
-
-    <div>Country: <span id="country"></span></div>
-    <div>State: <span id="state"></span></div>
-    <div>City: <span id="city"></span></div>
-    <div>Latitude: <span id="latitude"></span></div>
-    <div>Longitude: <span id="longitude"></span></div>
-    <div>IP: <span id="ip"></span></div>
-
-    <form id="test">
-    <select id = "states" onchange="clickHandler(this)">
+    <select id = "states">
           <option value="India">India</option>
           <option value="Andhra Pradesh">Andhra Pradesh</option>
           <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -68,8 +63,9 @@
           <option value="Uttarakhand">Uttarakhand</option>
           <option value="West Bengal">West Bengal</option>
     </select>
-  </form>
-    <p id="demo"></p>
-	
+	<form>
+    <input class="myButton" type="submit" value="Submit" />
+</form>
   </body>
+  
 </html>

@@ -42,6 +42,7 @@ function clickHandler(element) {
 function getState() {
   // var state = evt.target.value
   // console.log(state)
+  const json = getObject("data");
   var z = document.getElementById("states").value;
   document.getElementById("demo").innerHTML = "You selected: " + z;
 }
