@@ -1,4 +1,4 @@
-![text alt](./https://www.codetriage.com/shubham10divakar/covid-19-tracker/badges/users.svg)
+![text alt](https://www.codetriage.com/shubham10divakar/covid-19-tracker/badges/users.svg)
 # Covid-19 India Tracker
 
 Track Covid-19 cases in India from Chrome extensions
