@@ -21,12 +21,15 @@
     </ul>
 	 <script src="javaquery.js"></script>
 
+    <p>With your permission, device coordinates are sent to BigDataCloud to look up your city and state.</p>
+    <button id="locate-button" type="button">Find my location</button>
+    <div id="location-status" role="status" aria-live="polite">Select “Find my location” to start.</div>
     <div>Country: <span id="country"></span></div>
     <div>State: <span id="state"></span></div>
     <div>City: <span id="city"></span></div>
     <div>Latitude: <span id="latitude"></span></div>
     <div>Longitude: <span id="longitude"></span></div>
-    <div>IP: <span id="ip"></span></div>
+    <div>Accuracy: <span id="accuracy"></span></div>
 
     <form id="test">
     <select id = "states" onchange="clickHandler(this)">
