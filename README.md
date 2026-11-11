@@ -9,7 +9,7 @@ Track Covid-19 cases in India from Chrome extensions
 
 ## Data source
 
-The project is using the [CloudFare API](https://github.com/amodm/api-covid19-in).
+The project uses the [COVID19-India API](https://data.covid19india.org/) for India case totals. The API historically published latest data with a 10–20 minute delay. Its maintainers later deprecated the feed, so its data is no longer current.
 
 ## Installing
 
